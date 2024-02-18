@@ -1,0 +1,16 @@
+.img-apartment {
+  width: 90%;
+
+  border-radius: 10px;
+  border-top: 10px;
+}
+
+.parallax-apartment-container {
+  background-color: black;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  align-items: center;
+}

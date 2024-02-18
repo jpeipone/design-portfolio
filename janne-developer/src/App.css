@@ -1,0 +1,10 @@
+* {
+  scroll-behavior: smooth;
+  background-color: #ece9e2;
+}
+
+.parallax-apartment {
+  display: flex;
+  height: 80vh;
+  overflow: hidden;
+}
