@@ -4,6 +4,8 @@ import "./BannerHero.css";
 const BannerHero = () => {
   const [location, setLocation] = useState({ x: 70, y: 100 });
   const [movement, setMovement] = useState({ x: 1, y: 1 });
+  const [contactMe, setContactMe] = useState(false);
+  const [thanks, setThanks] = useState("Contact Me");
 
   useEffect(() => {
     const heightContainer = 450 - 40;
@@ -28,7 +30,7 @@ const BannerHero = () => {
         });
       }
       //right wall
-      if (location.x >= windowWidth - 45) {
+      else if (location.x >= windowWidth - 45) {
         let random = Math.floor(Math.random() * 5) - 2;
 
         if (random === 0) {
@@ -41,7 +43,7 @@ const BannerHero = () => {
       }
 
       //up wall
-      if (location.y <= 5) {
+      else if (location.y <= 5) {
         let random = Math.floor(Math.random() * 5) - 2;
 
         if (random === 0) {
@@ -49,12 +51,12 @@ const BannerHero = () => {
         }
         setMovement({
           x: random,
-          y: 1,
+          y: 1.2,
         });
       }
 
       //down wall
-      if (location.y >= heightContainer || location.y <= 0) {
+      else if (location.y >= heightContainer || location.y <= 0) {
         let random = Math.floor(Math.random() * 5) - 2;
         if (random === 0) {
           random = 1.1;
@@ -71,6 +73,15 @@ const BannerHero = () => {
     return () => clearInterval(intervalId);
   }, [location, movement]);
 
+  const handleHeroContact = () => {
+    if (!contactMe) {
+      setThanks("Thanks!");
+    } else {
+      setThanks("Contact Me");
+    }
+    setContactMe(!contactMe);
+  };
+
   return (
     <div className="banner-hero">
       <div className="hero-banner-container">
@@ -79,18 +90,27 @@ const BannerHero = () => {
             <div className="contact__name">Janne Peiponen</div>
             <div className="contact__title">Developer</div>
           </div>
-          <button className="contact__btn">Contact Me</button>
+          <button className="contact__btn" onClick={handleHeroContact}>
+            {thanks}
+          </button>
         </div>
-        <div
-          className="hero-404-icon"
-          style={{
-            position: "absolute",
-            left: location?.x,
-            top: location?.y,
-          }}
-        >
-          {" "}
-        </div>
+        {contactMe === false ? (
+          <div
+            className="hero-404-icon"
+            style={{
+              position: "absolute",
+              left: location?.x,
+              top: location?.y,
+            }}
+          >
+            <div className="hero-quest">?</div>
+          </div>
+        ) : (
+          <div className="red-box">
+            <div className="red-icon" />
+            <div className="excellent-choice"> janne.peiponen@hotmail.com </div>
+          </div>
+        )}
       </div>
     </div>
   );

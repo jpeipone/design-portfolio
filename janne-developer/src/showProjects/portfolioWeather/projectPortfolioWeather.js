@@ -11,7 +11,7 @@ const projectPortfolioWeather = () => {
         className="portfolio-weather-img"
       />
       <div className="info-how">
-        <h3> NoSQL Database to store Investments</h3>
+        <h3> NoSQL database with authentication</h3>
         <div className="list-and-links">
           <div className="built-container">
             <label className="built-with__label">Website was built with</label>
@@ -42,6 +42,8 @@ const projectPortfolioWeather = () => {
             </ul>
           </div>
         </div>
+        <br />
+        <br />
       </div>
     </div>
   );

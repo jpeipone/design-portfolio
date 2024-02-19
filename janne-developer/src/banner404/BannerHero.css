@@ -64,6 +64,35 @@
   margin-top: 5px;
 }
 
+.hero-quest {
+  text-align: center;
+}
+
+.red-box {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 85%;
+  max-width: 310px;
+  font-size: 18px;
+  color: black;
+  z-index: 9000;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.red-icon {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+}
+
+.excellent-choice {
+  margin-left: 10px;
+}
+
 @media only screen and (min-width: 590px) {
   .contact-banner {
     width: 260px;

@@ -86,7 +86,7 @@ const ProjectWhale = () => {
         />
       </div>
       <div className="info-how">
-        <h3>Calculator for rental apartments</h3>
+        <h3 className="short-intro__h3">Calculator for rental apartments</h3>
         <div className="list-and-links">
           <div className="built-container">
             <label className="built-with__label">Website was built with</label>
@@ -111,6 +111,8 @@ const ProjectWhale = () => {
             </ul>
           </div>
         </div>
+        <br />
+        <br />
       </div>
     </div>
   );
