@@ -1,0 +1,63 @@
+.banner-hero {
+  height: 450px;
+  width: 100%;
+}
+
+.hero-banner-container {
+  height: 450px;
+  width: 100%;
+
+  position: relative;
+}
+
+.hero-404-icon {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  background-color: red;
+  color: white;
+  overflow: hidden;
+}
+
+.contact-banner {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 140px;
+  height: 140px;
+  background-color: rgba(31, 81, 255, 0.5);
+  backdrop-filter: blur (5.9px);
+  -webkit-backdrop-filter: blur(5.9px);
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+}
+
+.contact__info {
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.contact__btn {
+  margin-top: 15px;
+  height: 40px;
+  width: 80px;
+  margin-left: 30px;
+  border-radius: 10px;
+  border: solid #121212 2px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contact__name {
+  font-size: 16px;
+  text-align: center;
+}
+
+.contact__title {
+  text-align: center;
+  margin-top: 5px;
+}

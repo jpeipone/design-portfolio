@@ -1,13 +1,15 @@
 .img-apartment {
   width: 90%;
-
-  border-radius: 10px;
+  position: relative;
+  border-radius: 20px;
   border-top: 10px;
+  margin-bottom: 30px;
+  border: solid black 4px;
 }
 
 .parallax-apartment-container {
-  background-color: black;
-  gap: 10px;
+  background-color: #1f51ff;
+  width: 100%;
   display: flex;
   flex-direction: column;
   position: relative;

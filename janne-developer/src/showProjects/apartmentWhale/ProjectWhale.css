@@ -1,0 +1,68 @@
+.showcase-apartment-whale {
+  width: 100%;
+  border-bottom: black solid 10px;
+  border-top: black solid 2px;
+}
+
+.parallax-apartment {
+  display: flex;
+  height: 500px;
+  overflow: hidden;
+  background-color: black;
+  border-bottom: black solid 10px;
+  border-top: black solid 10px;
+}
+
+h2 {
+  margin: 20px;
+}
+
+h3 {
+  margin-left: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.list-and-links {
+  display: flex;
+  max-width: 590px;
+}
+
+label {
+  margin: 20px;
+  font-weight: bold;
+}
+
+.info-how {
+  margin: 10px;
+  font-size: 18px;
+}
+
+ul {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+li {
+  list-style: none;
+  margin: 10px;
+}
+
+a {
+  text-decoration: unde;
+}
+
+.list {
+  margin-right: 150px;
+}
+
+@media only screen and (max-width: 590px) {
+  .list-and-links {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  .links-container {
+    margin-top: 30px;
+  }
+}
