@@ -17,16 +17,26 @@ const BannerHero = () => {
 
       //left wall
       if (location.x <= 2) {
+        let random = Math.floor(Math.random() * 5) - 2;
+
+        if (random === 0) {
+          random = -1;
+        }
         setMovement({
           x: 1,
-          y: -1,
+          y: random,
         });
       }
       //right wall
       if (location.x >= windowWidth - 45) {
+        let random = Math.floor(Math.random() * 5) - 2;
+
+        if (random === 0) {
+          random = 1;
+        }
         setMovement({
           x: -1,
-          y: 1,
+          y: random,
         });
       }
 
@@ -79,7 +89,7 @@ const BannerHero = () => {
             top: location?.y,
           }}
         >
-          O.O
+          {" "}
         </div>
       </div>
     </div>

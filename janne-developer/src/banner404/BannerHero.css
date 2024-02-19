@@ -23,8 +23,8 @@
   position: absolute;
   display: flex;
   flex-direction: column;
-  width: 140px;
-  height: 140px;
+  width: 160px;
+  height: 160px;
   background-color: rgba(31, 81, 255, 0.5);
   backdrop-filter: blur (5.9px);
   -webkit-backdrop-filter: blur(5.9px);
@@ -43,9 +43,10 @@
 
 .contact__btn {
   margin-top: 15px;
-  height: 40px;
-  width: 80px;
-  margin-left: 30px;
+  background-color: white;
+  height: 44px;
+  width: 90px;
+  margin-left: 35px;
   border-radius: 10px;
   border: solid #121212 2px;
   font-weight: bold;
@@ -53,11 +54,38 @@
 }
 
 .contact__name {
-  font-size: 16px;
+  margin-top: 15px;
+  font-size: 18px;
   text-align: center;
 }
 
 .contact__title {
   text-align: center;
   margin-top: 5px;
+}
+
+@media only screen and (min-width: 590px) {
+  .contact-banner {
+    width: 260px;
+    height: 260px;
+  }
+
+  .contact__btn {
+    margin-top: 55px;
+    height: 44px;
+    width: 105px;
+    margin-left: 75px;
+    font-size: 16px;
+  }
+
+  .contact__name {
+    margin-top: 35px;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .contact__title {
+    margin-top: 25px;
+    font-size: 20px;
+  }
 }

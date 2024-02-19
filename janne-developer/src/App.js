@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 
 import ProjectWhale from "./showProjects/apartmentWhale/ProjectWhale";
 import BannerHero from "./banner404/BannerHero";
+import ProjectPortfolioWeather from "./showProjects/portfolioWeather/projectPortfolioWeather";
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
       <BannerHero />
 
       <ProjectWhale />
+
+      <ProjectPortfolioWeather />
     </div>
   );
 }

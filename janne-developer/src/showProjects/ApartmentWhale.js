@@ -14,7 +14,7 @@ const ApartmentWhale = ({ images, upOrDown, yScroll, initialY, speed }) => {
           alt={image?.name}
           className="img-apartment"
           initial={{
-            y: upOrDown === 1 ? "-50vh" : 0,
+            y: 0,
           }}
           animate={{ opacity: 1, y: upOrDown * (yScroll * speed) }}
           transition={{ delay: 0.1 }}

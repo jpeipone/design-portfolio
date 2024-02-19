@@ -106,7 +106,7 @@ const ProjectWhale = () => {
                 <a href="https://asuntovalas.fi/">asuntovalas.fi</a>
               </li>
               <li>
-                <a href="github.com">GitHub</a>
+                <a href="https://github.com/jpeipone/Rental-Property">GitHub</a>
               </li>
             </ul>
           </div>

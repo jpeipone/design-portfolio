@@ -1,7 +1,7 @@
 .showcase-apartment-whale {
   width: 100%;
   border-bottom: black solid 10px;
-  border-top: black solid 2px;
+  border-top: black solid 4px;
 }
 
 .parallax-apartment {
@@ -20,7 +20,9 @@ h2 {
 h3 {
   margin-left: 20px;
   margin-top: 40px;
+  margin-right: 20px;
   margin-bottom: 40px;
+  max-width: 280px;
 }
 
 .list-and-links {
@@ -47,12 +49,9 @@ li {
   margin: 10px;
 }
 
-a {
-  text-decoration: unde;
-}
-
 .list {
-  margin-right: 150px;
+  width: 280px;
+  margin-right: 10px;
 }
 
 @media only screen and (max-width: 590px) {
