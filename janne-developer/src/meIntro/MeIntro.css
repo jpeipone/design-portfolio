@@ -1,0 +1,13 @@
+.me-intro-container {
+  /*  border-top: #212427 solid 4px; */
+  background-color: #faf9f6;
+  border-top: white solid 4px;
+}
+
+.intro__p {
+  font-size: 18px;
+  max-width: 570px;
+  margin-left: 20px;
+  margin-right: 20px;
+  line-height: 1.5;
+}

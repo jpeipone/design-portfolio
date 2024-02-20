@@ -56,7 +56,7 @@ const BannerHero = () => {
       }
 
       //down wall
-      else if (location.y >= heightContainer || location.y <= 0) {
+      else if (location.y >= heightContainer - 5) {
         let random = Math.floor(Math.random() * 5) - 2;
         if (random === 0) {
           random = 1.1;

@@ -1,20 +1,22 @@
 .showcase-apartment-whale {
-  width: 100%;
-  border-bottom: black solid 10px;
-  border-top: black solid 4px;
+  background-color: #faf9f6;
 }
 
 .parallax-apartment {
   display: flex;
   height: 500px;
   overflow: hidden;
-  background-color: black;
-  border-bottom: black solid 10px;
-  border-top: black solid 10px;
+
+  border-bottom: #1f51ff solid 10px;
+  border-top: #1f51ff solid 10px;
 }
 
 h2 {
   margin: 20px;
+}
+
+a {
+  color: #1f51ff;
 }
 
 h3 {
@@ -39,7 +41,6 @@ label {
   margin: 10px;
   font-size: 18px;
   max-width: 590px;
-  border-right: black solid 10px;
 }
 
 ul {

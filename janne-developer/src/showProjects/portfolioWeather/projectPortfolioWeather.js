@@ -3,7 +3,10 @@ import "./projectPortfolioWeather.css";
 
 const projectPortfolioWeather = () => {
   return (
-    <div>
+    <div className="portfolio-weather-project">
+      <br />
+      <br />
+      <br />
       <h2>Project: PortfolioWeather</h2>
       <img
         src="/images/portfolioWeather-ipad.jpg"
@@ -20,8 +23,8 @@ const projectPortfolioWeather = () => {
               <li>JavaScript</li>
               <li>CSS</li>
 
-              <li>NoSQL Firestore</li>
-              <li>Authentication Firebase</li>
+              <li>Firestore NoSQL</li>
+              <li>Firebase Authentication</li>
               <li>Firebase Hosting</li>
               <li>Node.js</li>
             </ul>

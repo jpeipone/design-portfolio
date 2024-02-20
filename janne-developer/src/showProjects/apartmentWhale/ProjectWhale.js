@@ -54,6 +54,9 @@ const ProjectWhale = () => {
 
   return (
     <div className="showcase-apartment-whale">
+      <br />
+      <br />
+      <br />
       <h2>Project: AsuntoValas.fi</h2>
       <div className="parallax-apartment">
         <ApartmentWhale
@@ -61,7 +64,7 @@ const ProjectWhale = () => {
           upOrDown={-1}
           yScroll={yScroll}
           initialY={-233}
-          speed={2.5}
+          speed={1.5}
         />
         <ApartmentWhale
           images={imagesCenter}
@@ -75,7 +78,7 @@ const ProjectWhale = () => {
           upOrDown={-1}
           yScroll={yScroll}
           initialY={-344}
-          speed={2}
+          speed={0.8}
         />
         <ApartmentWhale
           images={imagesRight2}
