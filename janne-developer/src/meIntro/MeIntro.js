@@ -4,7 +4,8 @@ import "./MeIntro.css";
 const MeIntro = () => {
   return (
     <div className="me-intro-container">
-      <br></br>
+      <br />
+      <br />
       <h2>Languages I speak:</h2>
       <p className="intro__p">JavaScript, Java, CSS, Finnish & English.</p>
       <br />
@@ -14,9 +15,6 @@ const MeIntro = () => {
         Business Information Technology. I also have a masters degree in
         Pharmacy.
       </p>
-      <br />
-      <br />
-      <br />
     </div>
   );
 };

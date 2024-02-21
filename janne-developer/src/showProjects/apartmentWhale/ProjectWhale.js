@@ -56,6 +56,8 @@ const ProjectWhale = () => {
     <div className="showcase-apartment-whale">
       <br />
       <br />
+      <h2>Here are my recent projects</h2>
+      <br />
       <br />
       <h2>Project: AsuntoValas.fi</h2>
       <div className="parallax-apartment">

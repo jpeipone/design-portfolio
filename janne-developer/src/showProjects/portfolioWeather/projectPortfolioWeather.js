@@ -8,11 +8,23 @@ const projectPortfolioWeather = () => {
       <br />
       <br />
       <h2>Project: PortfolioWeather</h2>
-      <img
+      {/*   <img
         src="/images/portfolioWeather-ipad.jpg"
         alt="portfolio Weather ipad"
         className="portfolio-weather-img"
-      />
+      /> */}
+      <div className="images-row-weather">
+        <img
+          src="/images/phoneInvestorAssets.png"
+          alt="phone summary"
+          className="phone__db__img__left"
+        />
+        <img
+          src="/images/phoneInvestorDb.png"
+          alt="phone assets"
+          className="phone__db__img"
+        />
+      </div>
       <div className="info-how">
         <h3> NoSQL database with authentication</h3>
         <div className="list-and-links">

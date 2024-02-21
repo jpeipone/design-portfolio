@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./BannerHero.css";
+import EmailIcon from "@mui/icons-material/Email";
 
 const BannerHero = () => {
   const [location, setLocation] = useState({ x: 70, y: 100 });
@@ -87,8 +88,9 @@ const BannerHero = () => {
       <div className="hero-banner-container">
         <div className="contact-banner">
           <div className="contact__info">
+            <div className="contact-text">Hello, my name is</div>
             <div className="contact__name">Janne Peiponen</div>
-            <div className="contact__title">Developer</div>
+            <div className="contact__title">- Developer</div>
           </div>
           <button className="contact__btn" onClick={handleHeroContact}>
             {thanks}
@@ -103,12 +105,13 @@ const BannerHero = () => {
               top: location?.y,
             }}
           >
-            <div className="hero-quest">?</div>
+            <div className="hero-quest"></div>
           </div>
         ) : (
           <div className="red-box">
-            <div className="red-icon" />
-            <div className="excellent-choice"> janne.peiponen@hotmail.com </div>
+            {/*    <div className="red-icon" /> */}
+            <EmailIcon style={{ fontSize: "2.5rem", fill: "red" }} />{" "}
+            <div className="excellent-choice">janne.peiponen@hotmail.com</div>
           </div>
         )}
       </div>
